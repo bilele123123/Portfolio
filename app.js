@@ -5,3 +5,17 @@ window.addEventListener('load', function () {
     });
 });
 
+let showMore = false;
+
+function toggleProjects() {
+  const additionalProjectsContainer = document.getElementById("additionalProjectsContainer");
+  additionalProjectsContainer.classList.toggle("show");
+  showMore = !showMore;
+
+  const viewMoreButton = document.getElementById("viewMoreButton");
+  if (showMore) {
+    viewMoreButton.textContent = "Show Less";
+  } else {
+    viewMoreButton.textContent = "Show More Projects";
+  }
+}

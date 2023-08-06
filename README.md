@@ -5,7 +5,6 @@ Welcome to my portfolio website! This website showcases my projects, skills, and
 - CSS
 - JavaScript
 - HTML
-- Node.js
 
 ## Features
 - Project Showcase: Explore a collection of my notable projects, each with a description, preview image, and relevant details. Click on a project to view more information and access live demos or source code.

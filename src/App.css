@@ -7,9 +7,7 @@
   background-color: #eaf0fd;
   display: flex;
   justify-content: center;
-  align-items: center;
   height: 100vh;
-  margin: 0;
   font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif;
@@ -20,7 +18,10 @@
   width: 85%;
   border-radius: 20px;
   padding: 20px;
+  margin: 15px 0;
 }
+
+/* HEADER CONTENT START */
 
 .border-t.border-gray-300 {
   border-top-width: 2px;
@@ -28,3 +29,34 @@
   border-color: rgb(173, 172, 172);
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
+
+.nav-links {
+  border-bottom: 2px solid transparent;
+  display: inline-block;
+  transition: border-color 0.3s, opacity 0.3s, transform 0.3s;
+  font-size: 20px;
+}
+
+.nav-links:hover {
+  border-color: #000;
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.link-background {
+    background-color: #785447;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fefeff;
+    font-size: 20px;
+    margin: 0 3px;
+    transition: transform 0.2s ease-in-out;
+    display: inline-block;
+}
+
+.link-background:hover {
+    opacity: 0.9;
+    transform: translateY(-5px);
+}
+
+/* HEADER CONTENT END */

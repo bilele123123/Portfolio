@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         custom: {
           785447: '#785447',
+          ffffff: '#ffffff'
         }
       }
     },

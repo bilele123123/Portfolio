@@ -6,25 +6,31 @@
 .main-body {
   background-color: #eaf0fd;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  min-height: 100vh;
+  align-items: center;
+  min-height: 90vh;
+  background-image: linear-gradient(#fdededa8,#eaf0fda6, #fefeffa8, #f6f6f79a,#fff9f796, #f5e1d9);
   font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif;
+
 }
 
-.portfolio-container {
+/* HEADER CONTENT START */
+
+.header-container, .about-container {
   background-color: #fefeff;
   width: 85%;
   border-radius: 1rem;
   padding: 1rem;
-  margin: 1rem 0;
+  margin: 1rem auto;
   max-width: 85%;
-  height: auto;
   flex-grow: 1;
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  height: 95vh;
 }
 
 .header-welcome {
@@ -33,8 +39,6 @@
     align-items: center;
     height: 75%;
 }
-
-/* HEADER CONTENT START */
 
 .border-t.border-gray-300 {
   border-top-width: 2px;
@@ -72,6 +76,16 @@
     transform: translateY(-5px);
 }
 
+.image-container {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+}
+
+.image-container:hover {
+    transform: translateY(-5px);
+}
+
 .profile-picture {
     z-index: 10;
     position: relative;
@@ -83,12 +97,24 @@
     max-width: 500px;
     max-height: 500px;
     object-fit: cover;
+    z-index: 0;
 }
+
+.image-border {
+    position: absolute;
+    top: 0%;
+    left: -5%;
+    width: 100%;
+    height: 100%;
+    border: 0.5rem solid #4d372f;
+    border-radius: 50rem 30rem;
+    z-index: 1;
+  }
 
 .typewriterEffect {
     color: #785447;
     font-weight: bold;
-    font-size: 1.25rem;
+    font-size: 1.3rem;
 }
 
 .link-background-content {
@@ -117,7 +143,14 @@
     transform: translateY(-5px);
 }
 
-
-
-
 /* HEADER CONTENT END */
+
+/* ABOUT SECTION START */
+
+.about-container {
+    background-color: #1a212e;
+}
+
+.text-center text-4xl {
+    color: #fff;
+}

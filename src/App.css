@@ -30,14 +30,16 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  height: 95vh;
+  min-height: 95vh;
+  height: fit-content;
 }
 
 .header-welcome {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75%;
+    min-height: 75vh;
+    height: fit-content;
 }
 
 .border-t.border-gray-300 {
@@ -149,8 +151,34 @@
 
 .about-container {
     background-color: #1a212e;
+    height: fit-content;
+    display: flex;
 }
 
-.text-center text-4xl {
-    color: #fff;
+.about-picture {
+    display: flex;
+    transform: translate(1rem, 5rem);
+}
+
+.group-picture {
+    border-radius: 5rem 10rem;
+    height: 30rem;
+    max-height: 30rem;
+    max-width: 30rem;
+}
+
+.my-picture {
+    border-radius: 5rem 5rem;
+    height: 20rem;
+    transform: translateX(-30rem) translateY(15rem);
+    max-height: 20rem;
+    max-width: 20rem;
+}
+
+.luffy {
+    height: 20rem;
+    width: 20rem;
+    object-fit: contain;
+    transform: translate(5rem, 2rem);
+    z-index: 1;
 }

@@ -2,7 +2,7 @@ import React from 'react';
 
 function MobileMenu({ isOpen, toggleMenu }) {
   return (
-    <div className={`fixed top-0 right-0 h-full w-2/5 bg-gray-800 transform transition-transform duration-300 ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+    <div className={`fixed top-0 right-0 h-full w-2/5 bg-gray-800 transform transition-transform duration-300 ${isOpen ? 'translate-x-0' : 'translate-x-full'}`} style={{zIndex:999}}>
       <button onClick={toggleMenu} className="absolute top-5 right-5 text-white">
         <i className="bx bx-x text-3xl"></i>
       </button>

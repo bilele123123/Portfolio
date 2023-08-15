@@ -1,7 +1,8 @@
 import React from 'react';
-import Header from './components/Header';
-import HeaderWelcome from './components/HeaderWelcome';
+import Header from './components/header/Header';
+import HeaderWelcome from './components/header/HeaderWelcome';
 import About from './components/About';
+import Experience from './components/Experience';
 import './App.css';
 
 function App() {
@@ -11,9 +12,8 @@ function App() {
         <div className='header-nav'><Header/></div>
         <div className='header-welcome'><HeaderWelcome></HeaderWelcome></div>
       </div>
-      <div className='about-container'>
-        <About></About>
-      </div>
+      <div className='about-container'><About></About></div>
+      <div className='experience-container'><Experience/></div>
     </div>
   );
 }

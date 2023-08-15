@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import TypewriterComponent from './Typewriter';
 import MobileMenu from './MobileMenu';
 
 function Header() {

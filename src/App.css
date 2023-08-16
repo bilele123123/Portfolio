@@ -19,7 +19,8 @@
 /* HEADER CONTENT START */
 
 .header-container,
-.experience-container {
+.experience-container,
+.about-container {
     background-color: #fefeff;
     width: 85%;
     border-radius: 1rem;
@@ -49,7 +50,7 @@
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
-.nav-links {
+.nav-links, .nav-name {
     border-bottom: 0.2rem solid transparent;
     display: inline-block;
     transition: border-color 0.3s, opacity 0.3s, transform 0.3s;
@@ -153,22 +154,11 @@
 
 .about-container {
     background-color: #1a212e;
-    display: flex;
-    width: 85%;
-    border-radius: 1rem;
-    padding: 1rem;
-    margin: 1rem auto;
-    max-width: 85%;
-    flex-grow: 1;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
     min-height: 70vh;
-    height: fit-content;
     color: #ffffff;
 }
 
-.about {
+.about, .experience {
     height: fit-content;
 }
 
@@ -237,6 +227,10 @@
 
 /* EXPERIENCE SECTION START */
 
+.experience-container {
+    min-height: fit-content;
+}
+
 .timeline {
     position: relative;
     margin: 50px auto;
@@ -286,14 +280,13 @@
 }
 
 .timeline-right-container img {
-    left: -40px;
+    left: -41px;
 }
 
 .timeline::after {
     content: '';
     position: absolute;
     width: 5px;
-    height: 100%;
     background-color: rgba(0, 0, 0, 0.1);
     top: 0;
     left: 50%;

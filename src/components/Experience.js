@@ -2,7 +2,7 @@ import React from "react";
 
 function Experience() {
     return (
-        <div className="mt-5 mb-10">
+        <div className="experience mt-5 mb-10">
             <h1 className="text-center text-4xl mb-8 font-bold">Experience</h1>
             <div className="timeline">
                 <div className="timeline-container">
@@ -54,7 +54,7 @@ function Experience() {
                     <div className="timeline-left-container">
                         <img src='/assets/images/TOP.png' alt="TOP"></img>
                         <div className="timeline-text-box">
-                            <p className="experience-description font-bold text-2xl mb-2">Student - The Odin Project</p>
+                            <p className="experience-description font-bold text-2xl mb-2">Self Study - The Odin Project</p>
                             <p className="experience-description text-xl mb-2">Nov 2022 - Present</p>
                             <ol className="experience-list text-xl">
                                 <li className="mb-1">

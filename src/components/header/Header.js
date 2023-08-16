@@ -17,7 +17,8 @@ function Header() {
           </button>
         </div>
 
-        <div className={`md:flex items-center justify-center ${showMenu ? "hidden" : "hidden"} `}>
+        <div className={`md:flex items-center justify-between ${showMenu ? "hidden" : "hidden"} `}>
+          <div className="nav-name">Thai.</div>
           <ul className="flex space-x-4">
             <li><a href="/" className="nav-links">Home</a></li>
             <li><a href="/about" className="nav-links">About</a></li>

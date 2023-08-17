@@ -20,7 +20,8 @@
 
 .header-container,
 .experience-container,
-.about-container {
+.about-container,
+.project-container {
     background-color: #fefeff;
     width: 85%;
     border-radius: 1rem;
@@ -346,3 +347,65 @@
 }
 
 /* EXPERIENCE SECTION END */
+
+/* PROJECT SECTION START */
+
+.project-container {
+    background-color: #1a212e;
+    color: #fefeff;
+    align-items: center;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    overflow: hidden;
+
+}
+
+.project-content-main {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    max-width: 100%;
+}
+
+.skills {
+    width: 75%;
+    background-color: rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 2rem;
+    white-space: nowrap;
+    position: relative;
+}
+
+.skills:hover .skills-carousel {
+    animation-play-state: paused;
+}
+
+.skills-carousel {
+    display: inline-block;
+    animation: 15s slide infinite linear;
+}
+
+.bx-icons {
+    padding: 1.5rem 0;
+    font-size: 7rem;
+    margin: 0 1.8rem;
+}
+
+@keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+}
+
+/* PROJECT SECTION END */
+

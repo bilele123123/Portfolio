@@ -21,7 +21,7 @@ function HeaderWelcome() {
                 </div>
                 <div className="flex flex-col justify-center text-left p-20">
                     <p className="text-4xl font-bold mb-3">Hello!</p>
-                    <p className="text-2xl mb-8">I'm {" "}<span className="inline-block hover:rotate-45 transition duration-300 text-4xl text-custom-785447 font-bold">Thai Le</span>, I am a
+                    <p className="text-2xl mb-8">I'm {" "}<span className="thai inline-block hover:rotate-45 transition duration-300 text-4xl font-bold">Thai Le</span>, I am a
                         <span className="typewriterEffect"><TypewriterComponent /></span></p>
                     <ul className="flex">
                         <li><a className="link-background-content" href="/contact">Contact</a></li>

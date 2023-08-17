@@ -59,13 +59,13 @@
 }
 
 .nav-links:hover {
-    border-color: #785447;
+    border-color: #1547a5;
     transform: translateY(-1px);
-    color: #785447;
+    color: #1547a5;
 }
 
 .link-background {
-    background-color: #785447;
+    background-color: #1547a5;
     padding: 0.3rem;
     border-radius: 0.3rem;
     color: #fefeff;
@@ -110,19 +110,23 @@
     left: -5%;
     width: 100%;
     height: 100%;
-    border: 0.5rem solid #4d372f;
+    border: 0.5rem solid #103477;
     border-radius: 50rem 30rem;
     z-index: 1;
 }
 
 .typewriterEffect {
-    color: #785447;
+    color: #1547a5;
     font-weight: bold;
     font-size: 1.3rem;
 }
 
+.thai {
+    color: #1547a5;
+}
+
 .link-background-content {
-    background-color: #785447;
+    background-color: #1547a5;
     padding: 0.5rem;
     border-radius: 0.5rem;
     color: #fefeff;
@@ -135,7 +139,7 @@
 .link-background-content-portfolio {
     padding: 0.5rem;
     border-radius: 0.5rem;
-    color: #785447;
+    color: #1547a5;
     font-size: 1.25rem;
     font-weight: bold;
     transition: transform 0.2s ease-in-out;
@@ -375,6 +379,7 @@
 }
 
 .skills {
+    max-width: 75%;
     width: 75%;
     background-color: rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -407,5 +412,78 @@
     }
 }
 
+.project-card-container {
+    max-width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-row {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.project-card {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    width: 32%;
+    max-width: 32%;
+    border: white solid 1px;
+    margin: 0 0.5rem;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0;
+    transition: transform 0.2s ease-in-out;
+}
+
+.project-card img {
+    object-fit: contain;
+    border-radius: 2rem 2rem 0 0;
+}
+
+.content-link {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-content {
+    height: 13rem;
+}
+
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+@media screen and (max-width: 1780px) {
+    .card-content {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    .project-card-container {
+        flex-direction: column;
+    }
+    .card-row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-card {
+        max-width: 85%;
+        min-width: 85%;
+        margin: 1rem 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .card-content {
+        font-size: 0.4rem;
+    }
+}
 /* PROJECT SECTION END */
 

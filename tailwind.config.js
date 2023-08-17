@@ -6,7 +6,8 @@ module.exports = {
       colors: {
         custom: {
           785447: '#785447',
-          ffffff: '#ffffff'
+          ffffff: '#ffffff',
+          darkblue: '1547a5'
         }
       }
     },

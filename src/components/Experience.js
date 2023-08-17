@@ -3,6 +3,7 @@ import React from "react";
 function Experience() {
     return (
         <div className="experience mt-5 mb-10">
+            <div className="experience-content">
             <h1 className="text-center text-4xl mb-8 font-bold">Experience</h1>
             <div className="timeline">
                 <div className="timeline-container">
@@ -73,6 +74,8 @@ function Experience() {
                     </div>
 
                 </div>
+
+            </div>
 
             </div>
         </div>

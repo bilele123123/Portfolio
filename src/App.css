@@ -158,8 +158,16 @@
     color: #ffffff;
 }
 
-.about, .experience {
+.experience {
     height: fit-content;
+}
+
+.about {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .about-description {
@@ -231,9 +239,18 @@
     min-height: fit-content;
 }
 
+.experience-content {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .timeline {
     position: relative;
-    margin: 50px auto;
+    margin: 20px auto;
     margin-bottom: 0;
 }
 

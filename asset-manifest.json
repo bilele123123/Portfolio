@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "//bilele123123.github.io/Portfolio/static/css/main.a04376fb.css",
-    "main.js": "//bilele123123.github.io/Portfolio/static/js/main.9ab6f958.js",
-    "index.html": "//bilele123123.github.io/Portfolio/index.html",
-    "main.a04376fb.css.map": "//bilele123123.github.io/Portfolio/static/css/main.a04376fb.css.map",
-    "main.9ab6f958.js.map": "//bilele123123.github.io/Portfolio/static/js/main.9ab6f958.js.map"
+    "main.css": "/Portfolio/static/css/main.a04376fb.css",
+    "main.js": "/Portfolio/static/js/main.9ab6f958.js",
+    "index.html": "/Portfolio/index.html",
+    "main.a04376fb.css.map": "/Portfolio/static/css/main.a04376fb.css.map",
+    "main.9ab6f958.js.map": "/Portfolio/static/js/main.9ab6f958.js.map"
   },
   "entrypoints": [
     "static/css/main.a04376fb.css",

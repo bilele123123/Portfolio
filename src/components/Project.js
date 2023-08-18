@@ -58,7 +58,7 @@ function Project() {
 
                         <div className="project-card">
                             <a href="https://github.com/bilele123123/mini-message-board" rel="noreferrer noopener" target="_blank">
-                                <img alt="inventory-application" src="https://github.com/bilele123123/mini-message-board/raw/main/public/images/preview.gif"></img>
+                                <img alt="message-board" src="https://github.com/bilele123123/mini-message-board/raw/main/public/images/preview.gif"></img>
                                 <div className="card-content p-3">
                                     <p className="text-xl font-bold pb-1">Mini Message Board</p>
                                     <p>The Mini Message Board is a simple web application that allows users to view and post messages on a public message board.
@@ -70,7 +70,7 @@ function Project() {
 
                         <div className="project-card">
                             <a href="https://bilele123123.github.io/memory-card/" rel="noreferrer noopener" target="_blank">
-                                <img alt="inventory-application" src="https://github.com/bilele123123/memory-card/raw/main/src/assets/game-preview.gif"></img>
+                                <img alt="maplestory-game" src="https://github.com/bilele123123/memory-card/raw/main/src/assets/game-preview.gif"></img>
                                 <div className="card-content p-3">
                                     <p className="text-xl font-bold pb-1">MapleStory Memory Card Game</p>
                                     <p>A web-based memory card game that test and challenge your memory skills.
@@ -84,7 +84,7 @@ function Project() {
                     <div className="card-row">
                         <div className="project-card">
                             <a href="https://bilele123123.github.io/Etch-a-Sketch/" rel="noreferrer noopener" target="_blank">
-                                <img alt="inventory-application" src="https://github.com/bilele123123/Etch-a-Sketch/raw/main/assets/Preview.png"></img>
+                                <img alt="etch-a-sketch" src="https://github.com/bilele123123/Etch-a-Sketch/raw/main/assets/Preview.png"></img>
                                 <div className="card-content p-3">
                                     <p className="text-xl font-bold pb-1">Etch-a-Sketch</p>
                                     <p>A fun web-based drawing application that functions similar to the Etch-a-Sketch toy.
@@ -95,7 +95,7 @@ function Project() {
 
                         <div className="project-card">
                             <a href="https://bilele123123.github.io/Calculator/" rel="noreferrer noopener" target="_blank">
-                                <img alt="inventory-application" src="https://github.com/bilele123123/Calculator/raw/main/assets/preview02.png"></img>
+                                <img alt="calculator" src="https://github.com/bilele123123/Calculator/raw/main/assets/preview02.png"></img>
                                 <div className="card-content p-3">
                                     <p className="text-xl font-bold pb-1">Calculator</p>
                                     <p>A web-based calculator app with a variety of operators to choose from, as well as a history feature to keep track of calculations.</p>
@@ -105,7 +105,7 @@ function Project() {
 
                         <div className="project-card">
                             <a href="https://bilele123123.github.io/RockPaperScissors/" rel="noreferrer noopener" target="_blank">
-                                <img alt="inventory-application" src="https://github.com/bilele123123/RockPaperScissors/raw/main/assets/preview02.png"></img>
+                                <img alt="rock-paper-scissors" src="https://github.com/bilele123123/RockPaperScissors/raw/main/assets/preview02.png"></img>
                                 <div className="card-content p-3">
                                     <p className="text-xl font-bold pb-1">Rock-Paper-Scissors</p>
                                     <p>A browser based Rock Paper Scissors game that allows the user to play against a computer for points.</p>
@@ -117,7 +117,7 @@ function Project() {
                     <div className="card-row">
                         <div className="project-card">
                             <a href="https://bilele123123.github.io/cv-application/" rel="noreferrer noopener" target="_blank">
-                                <img alt="inventory-application" src="https://github.com/bilele123123/cv-application/raw/main/public/webpreview01.png"></img>
+                                <img alt="cv-builder" src="https://github.com/bilele123123/cv-application/raw/main/public/webpreview01.png"></img>
                                 <div className="card-content p-3">
                                     <p className="text-xl font-bold pb-1">CV Builder</p>
                                     <p>A CV builder web application that allows you to add and edit general information, educational experience and practical experience.</p>
@@ -127,7 +127,7 @@ function Project() {
 
                         <div className="project-card">
                             <a href="https://bilele123123.github.io/Sign-Up-Form/" rel="noreferrer noopener" target="_blank">
-                                <img alt="inventory-application" src="https://github.com/bilele123123/Sign-Up-Form/raw/main/assets/preview01.png"></img>
+                                <img alt="sign-up-form" src="https://github.com/bilele123123/Sign-Up-Form/raw/main/assets/preview01.png"></img>
                                 <div className="card-content p-3">
                                     <p className="text-xl font-bold pb-1">Sign Up-Form</p>
                                     <p>Simple clean sign-up form for an imaginary service.</p>
@@ -137,7 +137,7 @@ function Project() {
 
                         <div className="project-card">
                             <a href="https://bilele123123.github.io/Library/" rel="noreferrer noopener" target="_blank">
-                                <img alt="inventory-application" src="https://github.com/bilele123123/Library/raw/main/assets/webpreview01.gif"></img>
+                                <img alt="library-catalog" src="https://github.com/bilele123123/Library/raw/main/assets/webpreview01.gif"></img>
                                 <div className="card-content p-3">
                                     <p className="text-xl font-bold pb-1">Library Catalog</p>
                                     <p>A simple web-based library catalog app that allows you to track the books you've read. Some functions include adding book by title, author, page and read status.</p>

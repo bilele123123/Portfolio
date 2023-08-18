@@ -51,7 +51,7 @@ function Header() {
                 <p className="text-2xl mb-8">I'm {" "}<span className="thai inline-block hover:rotate-45 transition duration-300 text-4xl font-bold">Thai Le</span>, I am a
                   <span className="typewriterEffect"><TypewriterComponent /></span></p>
                 <ul className="flex">
-                  <li><a className="link-background-content" href="#contact">Contact</a></li>
+                  <li><a className="link-background-content" href="https://drive.google.com/file/d/1v4V-Az_GJMNHIlS_DBS0XalYkdATOf-L/view?usp=sharing" rel="noreferrer noopener" target="_blank">Resume</a></li>
                   <li><a className="link-background-content-portfolio" href="#project">PORTFOLIO</a></li>
                 </ul>
               </div>

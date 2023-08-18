@@ -6,7 +6,7 @@ function About() {
             <h1 className="text-center text-4xl text-custom-ffffff m-5 mb-8 font-bold">About Me</h1>
             <div className="about-content">
                 <div className="about-picture">
-                    <img className="rounded-3xl" src='/assets/images/Collage.png' alt="collage"></img>
+                    <img className="rounded-3xl" src='assets/images/Collage.png' alt="collage"></img>
                 </div>
                 <div className="about-description">
                     <p className="about-text">Hello, my name is Thai, I am a student at CSU Long Beach studying Computer Science. I enjoy picking up new hobbies and push myself to learn everyday. On my spare 

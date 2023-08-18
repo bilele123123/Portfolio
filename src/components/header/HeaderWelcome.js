@@ -15,7 +15,7 @@ function HeaderWelcome() {
             <div className="flex flex-wrap items-center justify-center">
                 <div class="relative order-2">
                     <div className="image-container">
-                        <img src='/assets/images/My_picture.png' alt="Profile" className="profile-picture" />
+                        <img src='assets/images/My_picture.png' alt="Profile" className="profile-picture" />
                         <div className="image-border"></div>
                     </div>
                 </div>

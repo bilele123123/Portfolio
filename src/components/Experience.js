@@ -9,7 +9,7 @@ function Experience() {
                 <div className="timeline-container">
 
                     <div className="timeline-left-container">
-                        <img src='/assets/images/Secompany.png' alt='SportsExcitement'></img>
+                        <img src='assets/images/Secompany.png' alt='SportsExcitement'></img>
                         <div className="timeline-text-box">
                             <p className="experience-description font-bold text-2xl mb-2">Software Engineer - Sports Excitement</p>
                             <p className="experience-description text-xl mb-2">Jul 2023 - Present</p>
@@ -31,7 +31,7 @@ function Experience() {
                     </div>
 
                     <div className="timeline-right-container">
-                        <img src='/assets/images/CSU.png' alt='CSULB'></img>
+                        <img src='assets/images/CSU.png' alt='CSULB'></img>
                         <div className="timeline-text-box">
                             <p className="experience-description font-bold text-2xl mb-2">Student Support - CSU Long Beach</p>
                             <p className="experience-description text-xl mb-2">Sept 2023 - Present</p>
@@ -53,7 +53,7 @@ function Experience() {
                     </div>
 
                     <div className="timeline-left-container">
-                        <img src='/assets/images/TOP.png' alt="TOP"></img>
+                        <img src='assets/images/TOP.png' alt="TOP"></img>
                         <div className="timeline-text-box">
                             <p className="experience-description font-bold text-2xl mb-2">Self Study - The Odin Project</p>
                             <p className="experience-description text-xl mb-2">Nov 2022 - Present</p>

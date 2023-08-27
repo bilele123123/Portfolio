@@ -663,19 +663,28 @@ html {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
   .contact-request,
   .contact-information {
-    width: 30rem;
+    width: 35rem;
   }
 }
 
-@media screen and (max-width: 900px) {
+
+@media screen and (max-width: 700px) {
   .contact-request,
   .contact-information {
-    width: 20rem;
+    width: 32rem;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .contact-request,
+  .contact-information {
+    width: 26rem;
+  }
+}
+
 
 @media screen and (max-width: 500px) {
   .contact-title {
@@ -683,12 +692,20 @@ html {
   }
   .contact-request,
   .contact-information {
-    width: 15rem;
+    width: 20rem;
   }
   .info-email {
     font-size: 1rem;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .contact-request,
+  .contact-information {
+    width: 19rem;
+  }
+}
+
 
 @media screen and (max-width: 300px) {
   .contact-title {

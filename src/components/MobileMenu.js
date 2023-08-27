@@ -10,7 +10,7 @@ function MobileMenu({ isOpen, toggleMenu }) {
         <li><a href="#home" className="text-white text-xl mb-4">Home</a></li>
         <li><a href="#about" className="text-white text-xl mb-4">About</a></li>
         <li><a href="#experience" className="text-white text-xl mb-4">Experience</a></li>
-        <li><a href="#projects" className="text-white text-xl mb-4">Projects</a></li>
+        <li><a href="#project" className="text-white text-xl mb-4">Project</a></li>
         <li><a href="#contact" className="text-white text-xl mb-4">Contact</a></li>
       </ul>
     </div>

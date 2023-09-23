@@ -22,11 +22,11 @@ function Experience() {
                                             </li>
                                             <li className="mb-1">
                                                 <div className="custom-bullet"></div>
-                                                Implemented features resulting in a 20% increase in user engagement, fostering meaningful interactions between users and mentors.
+                                                Implemented features using TailwindCSS and React resulting in a 10% increase in user engagement, fostering meaningful interactions between users and mentors.
                                             </li>
                                             <li className="mb-1">
                                                 <div className="custom-bullet"></div>
-                                                Optimized backend code, leading to a 40% improvement in website loading speed.
+                                                Maintained and optimized server API, leading to an 8% improvement in website loading speed, enhancing user experience and satisfaction.
                                             </li>
                                         </ol>
                                     </div>
@@ -35,12 +35,12 @@ function Experience() {
                                 <div className="timeline-right-container">
                                     <img src='https://github.com/bilele123123/Portfolio/blob/main/public/assets/images/CSU.png?raw=true' alt='CSULB'></img>
                                     <div className="timeline-text-box">
-                                        <p className="experience-description font-bold text-2xl mb-2">Student Support - CSU Long Beach</p>
+                                        <p className="experience-description font-bold text-2xl mb-2">Student Technology Help Desk - CSU Long Beach</p>
                                         <p className="experience-description text-xl mb-2">Sept 2023 - Present</p>
                                         <ol className="experience-list text-xl">
                                             <li className="mb-1">
                                                 <div className="custom-bullet"></div>
-                                                Provide technical assistant to CSULB faculty, staff, and students.
+                                                Provide technical assistance to CSULB faculty, staff, and students.
                                             </li>
                                             <li className="mb-1">
                                                 <div className="custom-bullet"></div>

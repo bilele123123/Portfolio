@@ -18,8 +18,8 @@ function About() {
                             <div className="about-text flex flex-col mt-12">
                                 <div className="mr-6 mt-6">
                                     <p>EDUCATION</p>
-                                    <p>CSU Long Beach - BS Computer Science</p>
-                                    <p>Golden West College - AS Computer Science</p>
+                                    <p>CSU Long Beach - BS Computer Science (2026)</p>
+                                    <p>Golden West College - AS Computer Science (2023)</p>
                                 </div>
                             </div>
                             <div className="about-href-container text-6xl mt-12">

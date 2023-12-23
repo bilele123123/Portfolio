@@ -11,10 +11,32 @@ function Experience() {
                             <div className="timeline-container">
 
                                 <div className="timeline-left-container">
+                                    <img src='https://github.com/bilele123123/Portfolio/blob/main/public/assets/images/Engageathon.png?raw=true' alt='EngageAthon'></img>
+                                    <div className="timeline-text-box">
+                                        <p className="experience-description font-bold text-2xl mb-2">Software Engineer - EngageAthon</p>
+                                        <p className="experience-description text-xl mb-2">Nov 2023 - Present</p>
+                                        <ol className="experience-list text-xl">
+                                            <li className="mb-1">
+                                                <div className="custom-bullet"></div>
+                                                Actively contributed to the creation of key components, consistently delivering 1 to 2 components per week.
+                                            </li>
+                                            <li className="mb-1">
+                                                <div className="custom-bullet"></div>
+                                                Participated in weekly code reviews, upholding standard coding practices and elevating code quality.
+                                            </li>
+                                            <li className="mb-1">
+                                                <div className="custom-bullet"></div>
+                                                Contributed to the codebase refactoring process, eliminating redundant CSS styles, resulting in a 10% improvement in app load speed.
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </div>
+
+                                <div className="timeline-right-container">
                                     <img src='https://github.com/bilele123123/Portfolio/blob/main/public/assets/images/Secompany.png?raw=true' alt='SportsExcitement'></img>
                                     <div className="timeline-text-box">
                                         <p className="experience-description font-bold text-2xl mb-2">Software Engineer - Sports Excitement</p>
-                                        <p className="experience-description text-xl mb-2">Jul 2023 - Present</p>
+                                        <p className="experience-description text-xl mb-2">Jul 2023 - Nov 2023</p>
                                         <ol className="experience-list text-xl">
                                             <li className="mb-1">
                                                 <div className="custom-bullet"></div>
@@ -32,7 +54,7 @@ function Experience() {
                                     </div>
                                 </div>
 
-                                <div className="timeline-right-container">
+                                <div className="timeline-left-container">
                                     <img src='https://github.com/bilele123123/Portfolio/blob/main/public/assets/images/CSU.png?raw=true' alt='CSULB'></img>
                                     <div className="timeline-text-box">
                                         <p className="experience-description font-bold text-2xl mb-2">Student Technology Help Desk - CSU Long Beach</p>
@@ -54,7 +76,7 @@ function Experience() {
                                     </div>
                                 </div>
 
-                                <div className="timeline-left-container">
+                                <div className="timeline-right-container">
                                     <img src='https://github.com/bilele123123/Portfolio/blob/main/public/assets/images/TOP.png?raw=true' alt="TOP"></img>
                                     <div className="timeline-text-box">
                                         <p className="experience-description font-bold text-2xl mb-2">Self Study - The Odin Project</p>

@@ -1,0 +1,9 @@
+.vertical-timeline {
+    max-width: 85%;
+}
+
+@media (max-width: 1170px) {
+    .vertical-timeline {
+        max-width: 1170px;
+    }
+}

@@ -5,16 +5,17 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import csuIcon from "../images/CSU.png";
-import engageIcon from "../images/Engageathon.png";
-import seIcon from "../images/Secompany.png";
+import csuIcon from "../public/images/CSU.png";
+import engageIcon from "../public/images/Engageathon.png";
+import seIcon from "../public/images/Secompany.png";
 import Image from "next/image";
+import "../app/targetted-styles/vertical-timeline.css";
 
 const Experience = () => {
   return (
     <section id="experience" className="experience-section">
       <div className="h-full w-full bg-black-100 relative flex flex-col items-center  antialiased">
-        <h2 className="text-white text-4xl mt-12 font-medium">Experience</h2>
+        <h2 className="text-white text-4xl mt-10 font-medium">Experience</h2>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -26,7 +27,7 @@ const Experience = () => {
               <Image
                 src={csuIcon}
                 alt="CSULB Icon"
-                layout="fill"
+                fill
                 className="rounded-3xl"
               />
             }
@@ -69,7 +70,7 @@ const Experience = () => {
               <Image
                 src={engageIcon}
                 alt="ENGAEGathon Icon"
-                layout="fill"
+                fill                
                 className="rounded-3xl"
               />
             }
@@ -117,7 +118,7 @@ const Experience = () => {
               <Image
                 src={seIcon}
                 alt="Sports Excitement Icon"
-                layout="fill"
+                fill
                 className="rounded-3xl"
               />
             }

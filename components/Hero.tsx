@@ -1,21 +1,20 @@
-"use client"
+"use client";
 import React from "react";
 import { FloatingNav } from "./ui/floating-navbar";
 const Hero = () => {
-
   const navItems = [
     {
       name: "Home",
       link: "#hero",
     },
     {
+      name: "About",
+      link: "#about",
+    },
+    {
       name: "Experience",
       link: "#experience",
     },
-    {
-        name: "About",
-        link: "#about",
-      },
     {
       name: "Contact",
       link: "#contact",
@@ -24,7 +23,10 @@ const Hero = () => {
 
   return (
     <section id="hero" className="hero-section">
-      <FloatingNav className="position-relative w-full" navItems={navItems}></FloatingNav>
+      <FloatingNav
+        className="position-relative w-full"
+        navItems={navItems}
+      ></FloatingNav>
       <div className="h-screen w-full bg-black-100 relative flex flex-col items-center justify-center antialiased">
         <div className="max-w-2xl mx-auto p-4 relative z-20">
           <p className="uppercase tracking-widest text-x text-neutral-400 max-w-80 pb-2">

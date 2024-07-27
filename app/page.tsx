@@ -9,8 +9,8 @@ export default function Home() {
     <main className="relativ flex justify-center items-center flex-col overflow-hidden mx-auto">
       <div className="max-w-full w-full">
         <Hero></Hero> 
-        <Experience></Experience>
         <About></About>
+        <Experience></Experience>
         <Contact></Contact>
         <BackgroundBeams className="absolute top-0 left-0 w-full h-full z-0" />
       </div>

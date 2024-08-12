@@ -37,7 +37,7 @@ const Hero = () => {
           </h1>
           <p></p>
           <p className="text-neutral-400 max-w-lg mx-auto my-2 text-xl relative z-10">
-            I love to bicycle, powerlift, binge web comics and spending time
+            I love to bicycle, work-out, binge web comics and spending time
             with my family and friends.
           </p>
 

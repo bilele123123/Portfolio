@@ -14,7 +14,7 @@ import "../app/targetted-styles/vertical-timeline.css";
 const Experience = () => {
   return (
     <section id="experience" className="experience-section">
-      <div className="h-full w-full bg-black-100 relative flex flex-col items-center  antialiased">
+      <div className="h-full w-full bg-black-100 relative flex flex-col items-center antialiased">
         <h2 className="text-white text-4xl mt-10 font-medium">Experience</h2>
         <VerticalTimeline>
           <VerticalTimelineElement

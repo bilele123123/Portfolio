@@ -44,7 +44,7 @@ const About = () => {
     <section id="about" className="about-section">
       <div className="h-full w-full bg-black-100  flex flex-col items-center antialiased">
         <h2 className="text-white text-4xl mt-10 font-medium">About</h2>
-        <div className="about-me-content flex flex-row justify-between w-[85%] my-20">
+        <div className="about-me-content flex flex-row justify-between w-[85%] my-12">
           <div
             style={{
               backgroundImage: `url(${collage[index].image})`,

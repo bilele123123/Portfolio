@@ -15,7 +15,7 @@ const Experience = () => {
   return (
     <section id="experience" className="experience-section">
       <div className="h-full w-full bg-black-100 relative flex flex-col items-center antialiased pb-8">
-        <h2 className="text-white text-4xl mt-10 font-medium">Experience</h2>
+        <h2 className="text-white text-4xl mt-10 font-medium mb-12">Experience</h2>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"

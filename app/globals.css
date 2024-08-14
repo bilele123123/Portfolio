@@ -22,6 +22,10 @@
     color: transparent;
 }
 
+.contact-section-container {
+    height: calc(fit-content + 20px);
+}
+
 @media (max-width: 1169px) {
     .vertical-timeline-element-date {
         color: black;
@@ -47,5 +51,15 @@
     .about-me-description {
         width: 85%;
         margin-top: 5px;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact-section-text {
+        flex-direction: column;
+
+    }
+
+    .contact-section-text-header {
     }
 }

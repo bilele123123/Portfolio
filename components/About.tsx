@@ -75,8 +75,9 @@ const About = () => {
               <ol className="mt-3 space-y-1">
                 <li>- Guitar/ Piano, mainly percussive fingerstyle and jazz ^.^</li>
                 <li>- Catching up on the weekly One Piece updates and other webtoons.</li>
-                <li>- Working out and playing sports with my friends and girlfriend.</li>
-                <li>- Bicycling around the neighborhood, I ride fixed gear.</li>
+                <li>- Working out and playing sports with my friends.</li>
+                <li>- Play badminton with my girlfriend.</li>
+                <li>- Biking to buy some local street tacos.</li>
                 <li>- Spending hours getting stuck on a LeetCode problem.</li>
                 <li>- Annoy my dog and cat, their name is Bruno and Yan Yan.</li>
               </ol>

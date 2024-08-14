@@ -7,28 +7,25 @@ const About = () => {
 
   const collage = [
     {
-      image: "/images/sitting-because-of-pulled-hamstring.jpg",
+      image: "https://github.com/bilele123123/Portfolio/blob/main/public/images/sitting-because-of-pulled-hamstring.jpg?raw=true",
     },
     {
-      image: "/images/bored-at-beach.jpg",
+      image: "https://github.com/bilele123123/Portfolio/blob/main/public/images/bored-at-beach.jpg?raw=true",
     },
     {
-      image: "/images/bruno-smile.jpg",
+      image: "https://github.com/bilele123123/Portfolio/blob/main/public/images/bruno-smile.jpg?raw=true",
     },
     {
-      image: "/images/im-venom.jpg",
+      image: "https://github.com/bilele123123/Portfolio/blob/main/public/images/im-venom.jpg?raw=true",
     },
     {
-      image: "/images/so-romantic.jpg",
+      image: "https://github.com/bilele123123/Portfolio/blob/main/public/images/so-romantic.jpg?raw=true",
     },
     {
-      image: "/images/squirrel.jpg",
+      image: "https://github.com/bilele123123/Portfolio/blob/main/public/images/squirrel.jpg?raw=true",
     },
     {
-      image: "/images/yanyan-cute.jpg",
-    },
-    {
-      image: "/images/yanyan.jpg",
+      image: "https://github.com/bilele123123/Portfolio/blob/main/public/images/yanyan-cute.jpg?raw=true",
     },
   ];
 

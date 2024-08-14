@@ -12,6 +12,7 @@ export default function Home() {
         <About></About>
         <Experience></Experience>
         <Contact></Contact>
+        <BackgroundBeams></BackgroundBeams>
       </div>
     </main>
   );

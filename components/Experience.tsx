@@ -41,22 +41,19 @@ const Experience = () => {
               Long Beach, California
             </h4>
             <p>
-              - Developed and executed Java unit test scripts using Selenium,
-              successfully identifying and resolving over 150 accessibility
-              issues on the CSULB main page.
+              - Assisted in maintaining and optimizing the CSULB and Carpenter Performing Arts Center websites using Drupal and PHP, contributing to performance and accessibility improvements.
             </p>
             <p>
-              - Corrected over 50 inconsistent styling issues, enhancing user
-              experience by ensuring a consistent and accessible interface.
+              - Developed scripts to automate MySQL database migrations in Acquia Cloud, reducing manual intervention and improving deployment efficiency during monthly sprint pushes.
             </p>
             <p>
-              - Managed the CSULB content management system with Drupal,
-              providing support to over 30 faculty members and content creators
-              in generating and managing content.
+              - Automated over 150 Java unit test scripts with Selenium and Maven, identifying and fixing accessibility issues, improving compliance with WCAG 2.1 standards.
             </p>
             <p>
-              - Technologies Used: Drupal, SCSS, PHP, Lando, Docker, JavaScript,
-              CSS, Sass, MySQL, Selenium
+             - Developed a custom Drupal module enabling secure, token-based access to unpublished content, which was used over 50 times in its first month, significantly improving content management workflows.
+            </p>
+            <p>
+              - Technologies Used: Drupal, SCSS, PHP, Lando, Docker, JavaScript, Acquia, MySQL, Selenium, jQuery
             </p>
           </VerticalTimelineElement>
 
@@ -84,27 +81,19 @@ const Experience = () => {
               Philadelphia, New York
             </h4>
             <p>
-              - Developed a mobile social networking app enabling over 80
-              businesses and communities to create events and fundraisers with
-              incentivized rewards.
+              - Contributed to the development of a mobile social networking app enabling over 80 businesses and communities to create events and fundraisers with incentivized rewards.
             </p>
             <p>
-              - Resolved over 30 high-priority Android styling issues, improving
-              user access and experience of the mobile application.
+              - Assisted in scaling cloud infrastructure using AWS services, supporting over 500 new users while maintaining availability and performance under heavy loads.
             </p>
             <p>
-              - Reduced technical debt by 25% through code refactoring, CSS
-              debloating, and component modularization, significantly enhancing
-              in-app responsiveness and component rendering speed.
+              - Automated API testing and documentation with Postman and Swagger, reducing manual testing time by 23% and boosting API reliability.
             </p>
             <p>
-              - Deployed a secure user authentication API using Django and
-              PostgreSQL, enabling over 250 users to register, log in, and
-              manage profiles securely.
+              - Collaborated on engineering a feature for companies to create fundraising events, updating mobile and web platforms in real-time. This feature processed over 30 event updates weekly, leveraging AWS Lambda for efficient, scalable backend operations.
             </p>
             <p>
-              - Technologies Used: React Native, JavaScript, Python, PostgreSQL,
-              AWS, Postman, Swagger API
+              - Technologies Used: React Native, JavaScript, Python, PostgreSQL, AWS, Postman, Swagger API, Docker
             </p>
           </VerticalTimelineElement>
 
@@ -130,27 +119,19 @@ const Experience = () => {
             </h3>
             <h4 className="vertical-timeline-element-subtitle">New York</h4>
             <p>
-              - Designed and developed a full-stack application using MongoDB,
-              React.js, and Node.js, connecting over 50 students with mentors.
+              - Contributed to the design and development of a full-stack application using MongoDB, React.js, and Node.js, connecting over 50 students with mentors.
             </p>
             <p>
-              - Enhanced user authentication security by implementing salted
-              hashing, JWT, and code hashing, reducing security incidents by
-              15%.
+              - Optimized database performance by implementing indexed queries and data caching strategies in MongoDB, improving data retrieval speeds by 25%.
             </p>
             <p>
-              - Implemented comprehensive unit tests for component rendering and
-              API data validation using Jest, reducing bug tickets by 12% and
-              accelerating code deployment.
+              - Helped integrate CI/CD pipelines for automated testing and deployment, which increased deployment frequency by 10% and reduced rollback instances.
             </p>
             <p>
-              - Collaborated in an Agile environment with weekly sprints and
-              meetings, ensuring on-time delivery of the project and meeting all
-              project milestones.
+              - Developed and refined frontend components in close collaboration with QA engineers, adhering to WCAG accessibility standards and ensuring a seamless, inclusive user experience across all devices.
             </p>
             <p>
-              - Technologies Used: JavaScript, MongoDB, React.js, TailwindCSS,
-              JWT, Node.js, Express
+              - Technologies Used: JavaScript, MongoDB, React.js, TailwindCSS, JWT, Node.js, Express, AWS, Docker
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

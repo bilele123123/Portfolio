@@ -34,7 +34,7 @@ const About = () => {
   };
 
   const handlePrev = () => {
-    setIndex((prevIndex) => (prevIndex + 1) % collage.length);
+    setIndex((prevIndex) => (prevIndex - 1 + collage.length) % collage.length);
   };
 
   return (
